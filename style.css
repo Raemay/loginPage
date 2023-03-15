@@ -4,15 +4,23 @@ body {
 }
 
 
+.content {
+    width: 100%;
+    height: 100%;
+}
+
 .div-input {
-    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .form {
-    color: white;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    color: white;
+    margin-left: 10%;
 }
 
 .input-form {
@@ -21,19 +29,8 @@ body {
     border-color: white;
     margin: 10px;
     border-radius: 5px;
-}
-
-.input-form2 {
-    background-color: #ffad33;
-    border-style: solid;
-    border-color: white;
-    margin-left: 30px;
-    border-radius: 5px;
-}
-
-label {
-    text-align: center;
-    padding: 5%;
+    height: 35px;
+    width: 80%;
 }
 
 .submit {
@@ -41,9 +38,7 @@ label {
     border-style: solid;
     border-color: white;
     color: white;
-    margin: 10% 30%;
     border-radius: 5px;
-    padding: 10px 20px;
 }
 
 p {
@@ -61,26 +56,35 @@ p {
         justify-content: center;
     }
 
+    .div-input {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
     label {
         display: block;
         text-align: left;
-        padding-left: 10%;
-        padding-bottom: 5%;
     }
 
     input {
         height: 5%;
-        width: 200px;
+        width: 80%;
+        background-color: transparent;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5px;
     }
 
-    .input-form {
-        margin-left: 10%;
-    }
-
-    .submit {
-        margin: 30%;
-        padding: 0;
+    .submitButton {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 58%;
         width: 30%;
+    }
+
+    p {
+        margin-top: 30%;
     }
 
     .img {

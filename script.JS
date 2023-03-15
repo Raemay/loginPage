@@ -5,8 +5,7 @@ const authentication = {
         email: "melaniebelliard@outlook.fr",
         password: "wildcodeschool1234"
     }
-
-
+    
 submitButton.addEventListener("click", (e) => {
     const username = document.getElementById('email').value;
     const password = document.getElementById('password').value;
